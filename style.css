@@ -71,22 +71,30 @@ p{
     margin-bottom: 3%;
     display: flex;
     /* flex-basis: 600px; */
+    /* align-content: flex-end; */
 }
 
 .divOne{
     flex-basis: 40%;
+    flex-basis: 50%;
 }
 
 h1{
     color:  hsl(300, 43%, 22%);
+    font-size:2.1rem;
+    /* margin-bottom: 3px; */
+    width: 75%;
 }
 .users p{
     color: hsl(303, 10%, 53%)
     
 }
 
-.usersDiv{
+.usersDiv p{
+    line-height: 1.5;
+    padding-top: 15px;
     width: 75%;
+    width: 90%;
 }
 
 .ratings{
@@ -94,9 +102,10 @@ h1{
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    justify-content: space-between;
-
+    /* justify-self: flex-end; */
+    justify-content: space-evenly;
 }
+/* trying to figjure out how to get element to flex to the bottom/ align with neighbouring element at the bottom */
 
 .indvRatings{
     /* width: auto; */
@@ -104,7 +113,7 @@ h1{
     border-radius: 8px;
     /* height: 50px; */
     width: 75%;
-    padding: 18px 0 18px 18px;
+    padding: 15px 0 18px 15px;
     display: flex;
 }
 .indvRatings p{
